@@ -1,0 +1,67 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+wheels/
+pip-wheel-metadata/
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing
+.pytest_cache/
+.tox/
+.nox/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+.pytype/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# App config / secrets (session key stored locally)
+.config/
+*.session_key
+session_key
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+*~
+.fuse_hidden*
+.Trash-*
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.pydevproject
